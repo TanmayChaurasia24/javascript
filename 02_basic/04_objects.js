@@ -21,10 +21,23 @@ const obj2 = {2:"b"}
 const obj3 = {...obj1,...obj2}
 // console.log(obj3);
 
-console.log(Object.keys(user)); // all the keys of user object will come in the array k
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(Object.keys(user)); // all the keys of user object will come in the array k
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
+
+const course = {
+    coursename: "js",
+    price: 1000,
+}
+
+// destructuring
+const {coursename:ins,price} = course // to acess the values of object
+// console.table([ins,price])
+
+// {
+//     "name":"tanmay"
+// }
 
 
 
