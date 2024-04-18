@@ -21,7 +21,9 @@ const obj2 = {2:"b"}
 const obj3 = {...obj1,...obj2}
 // console.log(obj3);
 
-
+console.log(Object.keys(user)); // all the keys of user object will come in the array k
+console.log(Object.values(user));
+console.log(Object.entries(user));
 
 
 
