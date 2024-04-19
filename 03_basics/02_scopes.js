@@ -27,14 +27,13 @@ function one() {
 one()
 
 
-console.log(addone(5)) // no error
+// console.log(addone(5)) // no error
 function addone(num){
     return num+1
 }
 
-addtwo(5) //error
+// addtwo(5) //error
 const addtwo = function(num) {
     return num+2
 }
-
 
