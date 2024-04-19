@@ -4,4 +4,15 @@
 // let val1 = undefined ?? 10 //10
 let val1 = undefined ?? null //null
 
-console.log(val1);
+// console.log(val1);
+
+const map = new Map()
+map.set('in','india')
+map.set('uk','united kingdom')
+
+for(const [key,value] of map) {
+    console.log(key);
+}
+
+
+
